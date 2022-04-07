@@ -1,0 +1,228 @@
+/* 
+Theme Name:		 Chalets et Caviar
+Theme URI:		 http://childtheme-generator.com/
+Description:	 Chalets et Caviar is a child theme of Himalayas, created by ChildTheme-Generator.com
+Author:			 Jupanaos
+Author URI:		 http://childtheme-generator.com/
+Template:		 himalayas
+Version:		 1.0.0
+Text Domain:	 chalets-et-caviar
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+body {
+    font-weight: 300;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+}
+
+p, #menu-main-menu.menu, .sub-title {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h4, .main-title {
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+h2.has-x-large-font-size{
+	font-size: 75px !important;
+}
+
+p.has-medium-font-size{
+	font-size: 20px !important;
+	font-weight: 200;
+}
+
+
+#primary {
+  width: 100%;
+}
+
+/*
+    HEADER CSS
+*/
+.home-search {
+    display: none;
+}
+
+/*hero*/
+@media (min-width: 768px){
+		.wp-block-nk-awb {
+	  padding: 30px 50px;
+	}
+
+	.nk-awb {
+	  height: 1080px;
+	}
+}
+
+
+/*fonts hero*/
+h2 .has-central-palette-6-color {
+	font-size: 80px;
+}
+
+
+.has-central-palette-6-color {
+  text-align: center;
+}
+
+.header-wrapper{
+	background: #ffffff !important;
+}
+
+/*nav*/
+#site-navigation .menu li a {
+  color: #4D4C55;
+}
+
+#site-navigation .menu li {
+  margin-left: 20px;
+}
+
+.header-wrapper.stick #site-navigation .menu li a, .header-wrapper.no-slider #site-navigation .menu li a {
+  color: #4D4C55;
+}
+
+.transparent .header-wrapper.stick, .non-transparent .header-wrapper.stick {
+    background: #ffffff;
+    padding: 0;
+	color: #4D4C55;
+}
+
+/*logo*/
+@media (max-width: 1200px){
+	#masthead .logo {
+		float: left;
+		padding: 0 5px;
+		margin-left: 25px;
+		max-width: 150px;
+	}
+}
+
+
+@media (max-width: 768px){
+	.menu-toggle{
+		color: #4D4C55;
+		font-size: 50px;
+		width: 100px;
+	}
+
+	.logged-in.customize-support .header-wrapper.stick, .home.logged-in.customize-support .header-wrapper {
+  	top: -20px;
+	}
+}
+
+@media (min-width: 1200px){
+	#masthead .logo {
+  	transform: translateX(-50%);
+	position: absolute;
+	width: 12%;
+	top: -4px;
+	left: 50%;
+	z-index: 1;
+	}
+}
+
+	
+
+.section-wrapper {
+    padding: 90px 0;
+}
+
+.es-powered {
+    display: none;
+}
+
+/*estatik widgets*/
+
+#es_property_slideshow-5, #shortcodes-ultimate-2 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.es-widget > div:not(.es-map-property-layout-horizontal, .es-map-property-layout-vertical) {
+	background-color: transparent!important;
+	max-width: 1480px;
+	margin: 0 auto;
+}
+
+/*search es*/
+.widget_es_search_widget.es-widget {
+  width: 70% !important;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.widget ul li::before{
+	display: none;
+}
+
+#es_search_widget-5 {
+  text-align: center;
+}
+
+/*slideshow es*/
+.es-slide .es-slide__bottom {
+	color: #33302E;
+}
+
+.es-meta-icon{
+	width: 26px;
+}
+
+.es-slide .es-slide__content, .es-price{
+	background: #FCFCFC;
+}
+
+
+/*example widget*/
+#secondary, #post-301 {
+	display: none;
+}
+
+
+#es_search_widget-5 {
+	margin: 0 auto;
+}
+
+/*ligne poster*/
+.es-property-fields ul li:first-child{
+	display: none;
+}
+
+/* padding posts */
+
+#primary{
+	padding-top: 50px;
+}
+
+/*form*/
+.everest-forms .evf-container {
+  max-width: 800px;
+}
+
+/*post agence*/
+#post-7 .has-text-align-center {
+	text-align: center;
+}
+
+/*btn*/
+.section-wrapper {
+  padding: 90px 0px 20px 0px;
+}
+
+.section-title-wrapper {
+  margin-bottom: 0;
+}
+
+/*footer*/
+#top-footer {
+	background-color: #33302E;
+}
